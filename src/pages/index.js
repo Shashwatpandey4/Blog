@@ -2,7 +2,6 @@ import React from "react"
 import {Link, graphql} from "gatsby"
 import styled from "styled-components"
 import {
-  HeaderLogo,
   HeadingXL,
   HeadingL,
   Layout,
@@ -48,10 +47,10 @@ export default function Home({data}) {
   return (
     <>
       <SEO title="Blog" />
-      <HeaderLogo />
+      
       <Layout>
         <Hero>
-          <HeadingXL>Lewis Gatsby Starter Blog</HeadingXL>
+          <HeadingXL>Shashwat Pandey's Blog</HeadingXL>
           <TextHome>
             This is a custom Gatsby starter template to start a new blog or
             personal website.

@@ -32,6 +32,13 @@ export function Footer() {
       >
         Github
       </ButtonLink>
+      <ButtonLink
+        href="https://www.linkedin.com/in/shashwat-pandey-9119b3165/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Linkedin
+      </ButtonLink>
     </Container>
   )
 }

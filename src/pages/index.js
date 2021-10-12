@@ -8,6 +8,7 @@ import {
   SEO,
   TextBody,
   TextDate,
+  HeaderLogo,
 } from "../components"
 import {BREAKPOINT} from "../utils/constants"
 
@@ -47,10 +48,10 @@ export default function Home({data}) {
   return (
     <>
       <SEO title="Blog" />
-      
+      <HeaderLogo/>
       <Layout>
         <Hero>
-          <HeadingXL>Shashwat Pandey's Blog</HeadingXL>
+          
           <TextHome>
             This is a custom Gatsby starter template to start a new blog or
             personal website.

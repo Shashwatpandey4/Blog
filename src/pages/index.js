@@ -53,8 +53,7 @@ export default function Home({data}) {
         <Hero>
           
           <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
+          Sharing ideas and insights on Big data, Machine learning and Mathematics.
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({node}) => (

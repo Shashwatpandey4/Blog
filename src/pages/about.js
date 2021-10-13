@@ -16,24 +16,14 @@ export default function About({data}) {
       <SEO title="About" />
       <HeaderBack />
       <Layout>
-        <HeadingXL>About</HeadingXL>
+        <HeadingXL>About Me</HeadingXL>
         <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
         <TextBody>
-          Building mr concerns servants in he outlived am breeding. He so lain
-          good miss when sell some at if. Told hand so an rich gave next. How
-          doubt yet again see son smart. While mirth large of on front. Ye he
-          greater related adapted proceed entered an. Through it examine express
-          promise no. Past add size game cold girl off how old.
+          Currently working as a Data engineering intern @ Novo Nordisk. My main
+          domain of interest lies in machine learning and deep learning technologies.
           <br />
-          <br />
-          Bringing so sociable felicity supplied mr. September suspicion far him
-          two acuteness perfectly. Covered as an examine so regular of. Ye
-          astonished friendship remarkably no. Window admire matter praise you
-          bed whence. Delivered ye sportsmen zealously arranging frankness
-          estimable as. Nay any article enabled musical shyness yet sixteen yet
-          blushes. Entire its the did figure wonder off.
         </TextBody>
-        <Button href="mailto:your&#64;email.com">Get in touch</Button>
+        <Button href="mailto:shashwatpandeym.v@gmail.com">Get in touch</Button>
       </Layout>
     </>
   )
@@ -43,7 +33,7 @@ export const data = graphql`
   query {
     RandomPhoto: file(relativePath: {eq: "assets/images/RandomPhoto.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 1400) {
+        fluid(maxWidth: 700) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

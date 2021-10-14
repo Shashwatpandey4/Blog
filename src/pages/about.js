@@ -29,9 +29,10 @@ export default function About({data}) {
   )
 }
 
+
 export const data = graphql`
   query {
-    RandomPhoto: file(relativePath: {eq: "assets/images/RandomPhoto.jpg"}) {
+    RandomPhoto: file(relativePath: {eq: "assets/images/minimal-g46b583f23_640.jpg"}) {
       childImageSharp {
         fluid(maxWidth: 700) {
           ...GatsbyImageSharpFluid_withWebp

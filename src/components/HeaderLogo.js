@@ -22,7 +22,7 @@ export function HeaderLogo() {
     <HeaderWrapper>
       <Logo>SHASHWAT PANDEY</Logo>
       <Link to="/about">
-        <p>About Me</p>
+        <p>About</p>
       </Link>
     </HeaderWrapper>
   )
